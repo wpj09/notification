@@ -1,0 +1,26 @@
+{
+    "name": "wpj09/notification",
+    "description": "This is a library that users composer as the basic generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WILLIAN PEREIRA DE JESUS",
+            "email": "wpjwpj09@gmail.com",
+            "homepage": "https://www.growthcode.online",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.1.8"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
